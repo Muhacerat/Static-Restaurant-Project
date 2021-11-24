@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AEAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,gBAAgB,EDCD,OAAkB;CCApC",
-    "sources": [
-        "main.scss",
-        "_variables.scss",
-        "_globals.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["_globals.scss","_variables.scss","main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA,kBCCe;;;ACDnB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACA,ODPI;ECQJ;EACA;;AAEA;EACI;EACA;EACA;EACD,kBDfC;ECgBD;EACA;EACA;EACA;;AACF;EAEG;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAGH;EACG;EACA;EACA;EACA;EACA;;AAIJ;EACI;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;;AAGJ;EACI;EACA;EACA","file":"main.css"}
