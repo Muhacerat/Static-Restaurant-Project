@@ -1,2 +1,69 @@
 @import "./variables";
 @import "./globals";
+
+.navbar{
+    width: max;
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+
+    p{
+    color: $orange;
+    font-size: 1.4rem;
+    font-family: 'Patua One', cursive;
+    }
+    .circle{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+       background-color:$orange;
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     .circle2{
+        
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        position: absolute;
+        background-color:#624018;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+     }  
+     .circle3{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        background-color:#878f58;
+        
+     }
+    }
+    .name-icon{
+        display:flex;
+        gap: 1rem;
+        align-items: center;
+    
+    }
+    .sections-routers{
+        display: flex;
+        gap: 1.4rem;
+
+        p{
+            border-bottom: 3px solid transparent;
+        }
+
+        p:hover{
+            border-bottom-color: #e2725b;
+            color: #e2725b;
+            transition: 0.2s;
+        }
+    }
+    
+}
